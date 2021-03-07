@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+  	 <ion-buttons slot="start">
+    <ion-back-button color="dark" defaultHref="diabetes"></ion-back-button></ion-buttons>
+     </ion-toolbar>
+</ion-header>
+<ion-content padding class="background">
+  <ion-card>
+    <ion-card-header>
+        <ion-card-title>Causes of Diabetes</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>The underlying cause of diabetes varies by type. But, no matter what type of diabetes you have, it can lead to excess sugar in your blood. Too much sugar in your blood can lead to serious health problems. </p><br>
+      </ion-card-content>
+      <img src="assets/dia2.jpg"/>
+    </ion-card>
+    <ion-slides [options]="slideOpt">
+      <ion-slide>
+        <ion-card >
+          <ion-card-header>
+            <ion-card-title>Types 1: Diabetes</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>The exact cause of type 1 diabetes is unknown. What is known is that your immune system which normally fights harmful bacteria or viruses attacks and destroys your insulin-producing cells in the pancreas. This leaves you with little or no insulin. Instead of being transported into your cells, sugar builds up in your bloodstream.</p><br><br>
+            <p>Type 1 is thought to be caused by a combination of genetic susceptibility and environmental factors, though exactly what those factors are is still unclear. Weight is not believed to be a factor in type 1 diabetes.</p><br><br>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card >
+          <ion-card-header>
+            <ion-card-title>Types 2: Diabetes</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>In type 2 diabetes, your cells become resistant to the action of insulin, and your pancreas is unable to make enough insulin to overcome this resistance. Instead of moving into your cells where it's needed for energy, sugar builds up in your bloodstream. </p><br>
+            <p>Being overweight is strongly linked to the development of type 2 diabetes, but not everyone with type 2 is overweight.</p>
+          </ion-card-content>
+          <img src="assets/dia3.jpg"/>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card >
+          <ion-card-header>
+            <ion-card-title>Gestational Diabetes</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Gestational diabetes more to pregnancy. During pregnancy, the placenta produces hormones to sustain your pregnancy. These hormones make your cells more resistant to insulin.</p><br>
+            <p>Normally, your pancreas responds by producing enough extra insulin to overcome this resistance. But sometimes your pancreas can't keep up. When this happens, too little glucose gets into your cells and too much stays in your blood, resulting in gestational diabetes.</p>
+          </ion-card-content>
+          <img src="assets/dia4.jpg"/>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+</ion-content>

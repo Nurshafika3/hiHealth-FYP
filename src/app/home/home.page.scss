@@ -1,0 +1,89 @@
+   #container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+img {
+     object-fit: cover;
+    width: 100%;
+    bottom: 30%;
+}
+
+ion-content.background {
+    --background: url(../../assets/hihealth.png) 0 0/100% 100% no-repeat;
+ width: 100%;
+    }
+ion-slide{
+  display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+
+}
+
+ion-slide h3{
+  color: #F0FFFF;
+  font-style: italic;
+
+}
+
+ion-slide p{
+  color: #F0FFFF;
+  font-style: italic;
+
+}
+
+ion-slides {
+      height: 100%;
+    }
+
+    .swiper-slide {
+      display: block;
+    }
+
+    .swiper-slide h2 {
+      margin-top: 2.8rem;
+    }
+
+    .swiper-slide img {
+      max-height: 80%;
+      max-width: 50%;
+      margin: 60px 0 40px;
+      pointer-events: none;
+    }
+
+
+    p {
+      padding: 0 40px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--ion-color-step-600, #60646b);
+    }
+
+
+    ion-card{
+      --background: rgba(53, 51, 51, 0.856);
+  }
